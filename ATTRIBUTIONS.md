@@ -44,3 +44,10 @@ The website images below were downloaded from Wikimedia Commons on 2026-09-17 an
 - Modifications: Resized proportionally from 5,696 × 3,736 to 1,200 × 787 pixels and re-encoded from JPEG to WebP at quality 82; no crop.
 
 CC BY-SA works require attribution, a link to the license, an indication that modifications were made, and distribution of adaptations under the same or a compatible license. CC BY works require attribution, a link to the license, and an indication that modifications were made.
+
+## `assets/images/seven-luck-casino-coupon-ano2159-gno50.png`
+
+- Subject: Seven Luck Casino promotional coupon marked ANO 2159 and GNO 50
+- Source: Promotional artwork supplied directly by the site owner on 2026-09-17
+- Modifications: None; the original PNG bytes were preserved so the printed terms and QR codes remain unchanged.
+- Rights note: Contains third-party brand artwork, character artwork, and QR codes. Written permission and the final distribution terms must be confirmed with the issuing party before public promotion.

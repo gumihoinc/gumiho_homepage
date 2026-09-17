@@ -16,15 +16,19 @@
 - 补充真实的企业联系电话、邮箱及依法需要展示的主体/许可信息；正式发布前复核现有地址、咨询时间与社媒账号。
 - 将咨询表单连接到公司批准的咨询渠道；当前表单只在浏览器内生成摘要，不上传或保存数据。
 - 核对全部行程描述，不应把示例路线理解为固定商品、价格或承诺。
+- 由发行方确认 Seven Luck 优惠券的授权、门店适用范围、金额、会员资格与核销规则；当前页面按所提供海报整理并以现场确认为准。
 - 确认 assets/images/ 内图片的最终授权和署名要求，详见 ATTRIBUTIONS.md；若替换图片，请同步更新该文件。
-- 正式公开后删除 index.html 中的 noindex, nofollow，并补充隐私政策、服务条款和必要的 Cookie/数据说明。
+- 正式公开后删除两个 HTML 页面中的 noindex, nofollow，并补充隐私政策、服务条款和必要的 Cookie/数据说明。
 - 如使用独立域名，按 GitHub Pages 要求增加 CNAME 并完成 DNS 配置。
 
 ## 文件结构
 
 - index.html：页面内容和结构
+- seven-luck-casino-coupon.html：Seven Luck 外国游客优惠券详情页
 - styles.css：设计系统、图片路径及响应式样式
+- coupon.css：优惠券详情页专用样式
 - script.js：中韩文切换、移动导航、FAQ 和预览表单交互
+- coupon-translations.js：优惠券入口和详情页的中韩文案
 - assets/images/：本地旅行图片
 - .github/workflows/pages.yml：GitHub Pages 自动部署
 

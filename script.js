@@ -340,6 +340,16 @@
     }
   };
 
+  var pageTranslations = window.gumihoPageTranslations;
+  if (pageTranslations && pageTranslations.zh && pageTranslations.ko) {
+    Object.keys(pageTranslations.zh).forEach(function (key) {
+      translations.zh[key] = pageTranslations.zh[key];
+    });
+    Object.keys(pageTranslations.ko).forEach(function (key) {
+      translations.ko[key] = pageTranslations.ko[key];
+    });
+  }
+
   var root = document.documentElement;
   var menuButton = document.querySelector(".menu-toggle");
   var mobileMenu = document.getElementById("mobile-menu");
@@ -417,11 +427,13 @@
 
     currentLanguage = language;
     root.lang = language === "ko" ? "ko" : "zh-CN";
-    document.title = dictionary.pageTitle;
+    var pageTitleKey = root.getAttribute("data-page-title-key") || "pageTitle";
+    var pageDescriptionKey = root.getAttribute("data-page-description-key") || "pageDescription";
+    document.title = dictionary[pageTitleKey] || dictionary.pageTitle;
 
     var metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", dictionary.pageDescription);
+      metaDescription.setAttribute("content", dictionary[pageDescriptionKey] || dictionary.pageDescription);
     }
 
     document.querySelectorAll("[data-i18n]").forEach(function (element) {
@@ -442,6 +454,13 @@
       var key = element.getAttribute("data-i18n-placeholder");
       if (Object.prototype.hasOwnProperty.call(dictionary, key)) {
         element.setAttribute("placeholder", dictionary[key]);
+      }
+    });
+
+    document.querySelectorAll("[data-i18n-alt]").forEach(function (element) {
+      var key = element.getAttribute("data-i18n-alt");
+      if (Object.prototype.hasOwnProperty.call(dictionary, key)) {
+        element.setAttribute("alt", dictionary[key]);
       }
     });
 
