@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="寻美旅行社韩国旅行概念网站：首尔、济州与釜山的双语定制行程灵感。"
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#0b4942" />
+    <title>寻美旅行社｜GUMIHO TRAVEL</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content" data-i18n="skipLink">跳到主要内容</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="寻美旅行社首页" data-i18n-aria="brandHome">
+          <span class="brand-mark" aria-hidden="true">九尾</span>
+          <span class="brand-copy">
+            <strong data-i18n="brandName">寻美旅行社</strong>
+            <span>GUMIHO TRAVEL</span>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="主要导航" data-i18n-aria="mainNavigation">
+          <a href="#services" data-i18n="navServices">旅行服务</a>
+          <a href="#routes" data-i18n="navRoutes">热门路线</a>
+          <a href="#process" data-i18n="navProcess">预约流程</a>
+          <a href="#about" data-i18n="navAbout">关于我们</a>
+          <a href="#faq" data-i18n="navFaq">常见问题</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="language-switch" role="group" aria-label="语言选择" data-i18n-aria="languageChoice">
+            <button type="button" class="language-button is-active" data-lang="zh" aria-pressed="true">
+              中文
+            </button>
+            <span aria-hidden="true">/</span>
+            <button type="button" class="language-button" data-lang="ko" aria-pressed="false">
+              한국어
+            </button>
+          </div>
+          <a class="button button--small button--dark header-cta" href="#contact" data-i18n="navConsult">
+            咨询行程
+          </a>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="打开菜单"
+            data-i18n-aria="openMenu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="移动端导航" data-i18n-aria="mobileNavigation" hidden>
+        <a href="#services" data-i18n="navServices">旅行服务</a>
+        <a href="#routes" data-i18n="navRoutes">热门路线</a>
+        <a href="#process" data-i18n="navProcess">预约流程</a>
+        <a href="#about" data-i18n="navAbout">关于我们</a>
+        <a href="#faq" data-i18n="navFaq">常见问题</a>
+        <a href="#contact" data-i18n="navConsult">咨询行程</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-scrim"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow eyebrow--light" data-i18n="heroEyebrow">韩国在地旅行 · 双语沟通</p>
+            <h1 id="hero-title">
+              <span data-i18n="heroLine1">你所向往的韩国，</span>
+              <span class="hero-accent" data-i18n="heroLine2">不止一种打开方式。</span>
+            </h1>
+            <p class="hero-lead" data-i18n="heroLead">
+              从首尔的晨光到济州的海风，以你的节奏规划一次更自在、更有温度的韩国旅行。
+            </p>
+            <div class="hero-actions">
+              <a class="button button--coral" href="#contact">
+                <span data-i18n="heroPrimary">聊聊你的旅行</span>
+                <span aria-hidden="true">→</span>
+              </a>
+              <a class="button button--glass" href="#routes">
+                <span data-i18n="heroSecondary">看看路线灵感</span>
+                <span aria-hidden="true">↘</span>
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-note reveal" aria-label="行程设计说明" data-i18n-aria="heroNoteLabel">
+            <span class="hero-note__index">01 — 04</span>
+            <p class="hero-note__script" aria-hidden="true">서울에서 제주까지</p>
+            <strong data-i18n="heroNoteTitle">从一份空白行程开始</strong>
+            <p data-i18n="heroNoteText">
+              告诉我们想去的城市、旅行天数和偏好，一起梳理适合你的旅行节奏。
+            </p>
+          </aside>
+        </div>
+
+        <div class="container service-dock-wrap">
+          <div class="service-dock" aria-label="服务概览" data-i18n-aria="serviceOverview">
+            <div class="dock-item">
+              <span class="dock-icon" aria-hidden="true">✈</span>
+              <span><strong data-i18n="dockFlight">机票规划</strong><small data-i18n="dockFlightSub">航班时间建议</small></span>
+            </div>
+            <div class="dock-item">
+              <span class="dock-icon" aria-hidden="true">⌂</span>
+              <span><strong data-i18n="dockStay">住宿建议</strong><small data-i18n="dockStaySub">匹配区域与预算</small></span>
+            </div>
+            <div class="dock-item">
+              <span class="dock-icon" aria-hidden="true">◇</span>
+              <span><strong data-i18n="dockTransfer">接送协调</strong><small data-i18n="dockTransferSub">衔接移动节奏</small></span>
+            </div>
+            <div class="dock-item">
+              <span class="dock-icon" aria-hidden="true">⌁</span>
+              <span><strong data-i18n="dockTheme">主题路线</strong><small data-i18n="dockThemeSub">自然、美食与文化</small></span>
+            </div>
+            <div class="dock-item">
+              <span class="dock-icon" aria-hidden="true">文</span>
+              <span><strong data-i18n="dockLanguage">双语支持</strong><small data-i18n="dockLanguageSub">中文与韩文沟通</small></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--services" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow" data-i18n="servicesEyebrow">OUR SERVICES · 旅行服务</p>
+              <h2 id="services-title" data-i18n="servicesTitle">把行程变成值得回味的日常</h2>
+            </div>
+            <p data-i18n="servicesIntro">
+              不追赶景点清单，从你的兴趣、同行成员与旅行步调出发，整理每一天的重点。
+            </p>
+          </div>
+
+          <div class="service-cards">
+            <article class="service-card reveal">
+              <div class="service-card__image photo photo--seoul" role="img" aria-label="首尔城市风景示意图" data-i18n-aria="imageSeoul">
+                <span class="image-label" data-i18n="citySeoul">首尔 SEOUL</span>
+              </div>
+              <div class="service-card__body">
+                <span class="card-number">01</span>
+                <h3 data-i18n="serviceCityTitle">城市慢游</h3>
+                <p data-i18n="serviceCityText">古宫、街区与设计空间交错，把熟悉的城市走出自己的路线。</p>
+                <a href="#contact" class="text-link"><span data-i18n="serviceLink">告诉我们你的偏好</span><span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__image photo photo--jeju" role="img" aria-label="济州海岸风景示意图" data-i18n-aria="imageJeju">
+                <span class="image-label" data-i18n="cityJeju">济州 JEJU</span>
+              </div>
+              <div class="service-card__body">
+                <span class="card-number">02</span>
+                <h3 data-i18n="serviceNatureTitle">自然休息</h3>
+                <p data-i18n="serviceNatureText">海岸、森林与小村落之间，留出真正可以放慢脚步的时间。</p>
+                <a href="#contact" class="text-link"><span data-i18n="serviceLink">告诉我们你的偏好</span><span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__image photo photo--food" role="img" aria-label="韩国街巷与餐食氛围示意图" data-i18n-aria="imageFood">
+                <span class="image-label" data-i18n="themeTaste">风味 TASTE</span>
+              </div>
+              <div class="service-card__body">
+                <span class="card-number">03</span>
+                <h3 data-i18n="serviceTasteTitle">风味地图</h3>
+                <p data-i18n="serviceTasteText">从传统市场到街区小店，让一顿饭成为认识一座城的入口。</p>
+                <a href="#contact" class="text-link"><span data-i18n="serviceLink">告诉我们你的偏好</span><span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card__image photo photo--culture" role="img" aria-label="韩国传统建筑与文化体验示意图" data-i18n-aria="imageCulture">
+                <span class="image-label" data-i18n="themeCulture">文化 CULTURE</span>
+              </div>
+              <div class="service-card__body">
+                <span class="card-number">04</span>
+                <h3 data-i18n="serviceCultureTitle">文化相遇</h3>
+                <p data-i18n="serviceCultureText">看展、手作与传统体验，找到景点之外更真实的韩国切面。</p>
+                <a href="#contact" class="text-link"><span data-i18n="serviceLink">告诉我们你的偏好</span><span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--routes" id="routes" aria-labelledby="routes-title">
+        <div class="container">
+          <div class="section-heading section-heading--routes reveal">
+            <div>
+              <p class="eyebrow" data-i18n="routesEyebrow">ROUTE INSPIRATION · 路线灵感</p>
+              <h2 id="routes-title" data-i18n="routesTitle">从这些旅行节奏开始想象</h2>
+            </div>
+            <p data-i18n="routesIntro">
+              以下为路线方向示例，不是固定套餐。最终内容将根据季节、同行成员与实际条件调整。
+            </p>
+          </div>
+
+          <div class="route-grid">
+            <article class="route-card route-card--large reveal">
+              <div class="route-card__image photo photo--palace" role="img" aria-label="首尔宫殿与城市路线示意图" data-i18n-aria="routeImageSeoul"></div>
+              <div class="route-card__content">
+                <div class="route-meta">
+                  <span data-i18n="routeSeoulMeta">首尔 · 4日节奏示例</span>
+                  <span>SEOUL</span>
+                </div>
+                <h3 data-i18n="routeSeoulTitle">城市与传统，刚好相遇</h3>
+                <p data-i18n="routeSeoulText">古宫散步、街区咖啡、设计小店与汉江黄昏，在新与旧之间自由切换。</p>
+                <ul class="route-tags" aria-label="路线主题" data-i18n-aria="routeThemes">
+                  <li data-i18n="tagArchitecture">建筑</li>
+                  <li data-i18n="tagNeighborhood">街区</li>
+                  <li data-i18n="tagDesign">设计</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="route-card reveal">
+              <div class="route-card__image photo photo--coast" role="img" aria-label="济州海岸路线示意图" data-i18n-aria="routeImageJeju"></div>
+              <div class="route-card__content">
+                <div class="route-meta">
+                  <span data-i18n="routeJejuMeta">济州 · 4日节奏示例</span>
+                  <span>JEJU</span>
+                </div>
+                <h3 data-i18n="routeJejuTitle">把日程交给海风</h3>
+                <p data-i18n="routeJejuText">沿海散步、自然风景与安静小店，给身体和心情都留一点空白。</p>
+                <ul class="route-tags" aria-label="路线主题" data-i18n-aria="routeThemes">
+                  <li data-i18n="tagNature">自然</li>
+                  <li data-i18n="tagWalk">徒步</li>
+                  <li data-i18n="tagRelax">放松</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="route-card reveal">
+              <div class="route-card__image photo photo--food" role="img" aria-label="韩国传统市场与美食路线示意图" data-i18n-aria="routeImageBusan"></div>
+              <div class="route-card__content">
+                <div class="route-meta">
+                  <span data-i18n="routeBusanMeta">首尔 · 2日主题示例</span>
+                  <span>SEOUL</span>
+                </div>
+                <h3 data-i18n="routeBusanTitle">在市场与夜色里开胃</h3>
+                <p data-i18n="routeBusanText">传统市场、街区小店与夜间散步，用味觉记住首尔最鲜活的一面。</p>
+                <ul class="route-tags" aria-label="路线主题" data-i18n-aria="routeThemes">
+                  <li data-i18n="tagLocal">在地</li>
+                  <li data-i18n="tagFood">美食</li>
+                  <li data-i18n="tagMarket">市场</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-band" aria-label="品牌理念" data-i18n-aria="brandIdea">
+        <div class="quote-band__image photo photo--hanok" role="img" aria-label="韩国传统建筑示意图" data-i18n-aria="imageHanok"></div>
+        <div class="quote-band__content">
+          <p class="eyebrow" data-i18n="quoteEyebrow">TRAVEL, MADE PERSONAL</p>
+          <blockquote data-i18n="quoteText">“好的旅行，不是去过多少地方，而是留下些什么感受。”</blockquote>
+          <p data-i18n="quoteSub">寻美旅行社，陪你找到适合自己的韩国旅行方式。</p>
+        </div>
+      </section>
+
+      <section class="section section--process" id="process" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow" data-i18n="processEyebrow">HOW IT WORKS · 预约流程</p>
+              <h2 id="process-title" data-i18n="processTitle">四步，把想法变成清晰行程</h2>
+            </div>
+            <p data-i18n="processIntro">先理解你，再讨论路线。每一步都保留调整空间。</p>
+          </div>
+
+          <ol class="process-list">
+            <li class="process-step reveal">
+              <span class="process-number">01</span>
+              <span class="process-symbol" aria-hidden="true">○</span>
+              <h3 data-i18n="process1Title">分享期待</h3>
+              <p data-i18n="process1Text">告诉我们城市、日期、同行成员与旅行偏好。</p>
+            </li>
+            <li class="process-step reveal">
+              <span class="process-number">02</span>
+              <span class="process-symbol" aria-hidden="true">◇</span>
+              <h3 data-i18n="process2Title">梳理方向</h3>
+              <p data-i18n="process2Text">一起确认重点、节奏与需要协助的事项。</p>
+            </li>
+            <li class="process-step reveal">
+              <span class="process-number">03</span>
+              <span class="process-symbol" aria-hidden="true">□</span>
+              <h3 data-i18n="process3Title">确认安排</h3>
+              <p data-i18n="process3Text">根据可用情况核对细节，再确定最终计划。</p>
+            </li>
+            <li class="process-step reveal">
+              <span class="process-number">04</span>
+              <span class="process-symbol" aria-hidden="true">↗</span>
+              <h3 data-i18n="process4Title">自在出发</h3>
+              <p data-i18n="process4Text">带着清楚的路线与必要信息，开始韩国之旅。</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section--reasons" aria-labelledby="reasons-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow" data-i18n="reasonsEyebrow">WHY GUMIHO · 选择理由</p>
+              <h2 id="reasons-title" data-i18n="reasonsTitle">旅行里最重要的，是恰到好处</h2>
+            </div>
+            <p data-i18n="reasonsIntro">不堆满日程，也不套用同一份模板，把注意力放回旅行者本身。</p>
+          </div>
+
+          <div class="reason-grid">
+            <article class="reason-card reveal">
+              <span class="reason-icon" aria-hidden="true">A</span>
+              <h3 data-i18n="reason1Title">双语沟通</h3>
+              <p data-i18n="reason1Text">以中文理解需求，以韩文衔接当地信息，减少沟通落差。</p>
+            </article>
+            <article class="reason-card reveal">
+              <span class="reason-icon" aria-hidden="true">↺</span>
+              <h3 data-i18n="reason2Title">灵活节奏</h3>
+              <p data-i18n="reason2Text">根据同行成员、季节与体力安排每天的行走密度。</p>
+            </article>
+            <article class="reason-card reveal">
+              <span class="reason-icon" aria-hidden="true">◎</span>
+              <h3 data-i18n="reason3Title">兴趣优先</h3>
+              <p data-i18n="reason3Text">从自然、饮食、文化或购物兴趣出发，建立路线重点。</p>
+            </article>
+            <article class="reason-card reveal">
+              <span class="reason-icon" aria-hidden="true">✓</span>
+              <h3 data-i18n="reason4Title">信息清楚</h3>
+              <p data-i18n="reason4Text">把交通、时间与注意事项整理成容易理解的旅行信息。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--about" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-image-wrap reveal">
+            <div class="about-image photo photo--about" role="img" aria-label="首尔街区旅行氛围示意图" data-i18n-aria="imageAbout"></div>
+            <div class="about-seal" aria-hidden="true">
+              <span>九尾</span>
+              <small>GUMIHO</small>
+            </div>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow" data-i18n="aboutEyebrow">ABOUT US · 公司介绍</p>
+            <h2 id="about-title" data-i18n="aboutTitle">在陌生城市里，给你一份熟悉感</h2>
+            <p data-i18n="aboutText1">
+              寻美旅行社专注于韩国旅行的路线策划与信息整理。我们相信，真正适合的旅程不在于景点数量，而在于每一天是否符合你的兴趣与状态。
+            </p>
+            <p data-i18n="aboutText2">
+              从首尔、济州到釜山，我们以中文与韩文协助沟通，让出发前的想法更清楚，也让旅途中的选择更从容。
+            </p>
+            <div class="about-facts" aria-label="服务信息" data-i18n-aria="serviceInfo">
+              <div>
+                <span data-i18n="factLanguageLabel">沟通语言</span>
+                <strong data-i18n="factLanguageValue">中文 · 한국어</strong>
+              </div>
+              <div>
+                <span data-i18n="factAreaLabel">路线方向</span>
+                <strong data-i18n="factAreaValue">首尔 · 济州 · 釜山</strong>
+              </div>
+              <div>
+                <span data-i18n="factContactLabel">企业资料</span>
+                <strong data-i18n="factContactValue">正式上线前补充</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--faq" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-grid">
+          <div class="faq-heading reveal">
+            <p class="eyebrow" data-i18n="faqEyebrow">FAQ · 常见问题</p>
+            <h2 id="faq-title" data-i18n="faqTitle">出发前，先把这些问题说清楚</h2>
+            <p data-i18n="faqIntro">具体服务范围、费用与预订条款，请以正式咨询时提供的信息为准。</p>
+          </div>
+          <div class="faq-list reveal">
+            <details>
+              <summary data-i18n="faq1Question">可以用中文沟通吗？</summary>
+              <p data-i18n="faq1Answer">可以。网站与咨询流程计划提供中文和韩文沟通支持，具体方式将在正式上线时公布。</p>
+            </details>
+            <details>
+              <summary data-i18n="faq2Question">可以只做路线规划吗？</summary>
+              <p data-i18n="faq2Answer">可以先说明需要协助的范围，我们会根据实际服务内容确认是否适合承接。</p>
+            </details>
+            <details>
+              <summary data-i18n="faq3Question">行程内容是固定的吗？</summary>
+              <p data-i18n="faq3Answer">不是。页面中的路线仅作灵感展示，实际安排会根据季节、可用情况和个人偏好调整。</p>
+            </details>
+            <details>
+              <summary data-i18n="faq4Question">网站上的图片和信息已经是最终版本吗？</summary>
+              <p data-i18n="faq4Answer">目前是概念预览。企业资料、联系方式、服务条款与授权图片会在正式发布前完成核对与替换。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-shell reveal">
+          <div class="contact-copy">
+            <p class="eyebrow eyebrow--light" data-i18n="contactEyebrow">START YOUR JOURNEY</p>
+            <h2 id="contact-title" data-i18n="contactTitle">下一段旅程，从一个想法开始</h2>
+            <p data-i18n="contactText">
+              先整理目的地、月份与最想体验的事。这个预览表单不会上传或保存个人信息。
+            </p>
+            <div class="contact-note">
+              <span aria-hidden="true">✦</span>
+              <span data-i18n="contactNote">正式咨询渠道将在公司资料确认后接入。</span>
+            </div>
+          </div>
+
+          <form class="inquiry-form" id="inquiry-form">
+            <div class="form-field">
+              <label for="destination" data-i18n="formDestination">想去哪里？</label>
+              <select id="destination" name="destination">
+                <option value="seoul" data-i18n="formDestinationSeoul">首尔</option>
+                <option value="jeju" data-i18n="formDestinationJeju">济州</option>
+                <option value="busan" data-i18n="formDestinationBusan">釜山</option>
+                <option value="multi" data-i18n="formDestinationMulti">多城市</option>
+                <option value="unsure" data-i18n="formDestinationUnsure">还没决定</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="travel-month" data-i18n="formMonth">预计月份</label>
+              <input id="travel-month" name="travel-month" type="month" />
+            </div>
+            <div class="form-field form-field--wide">
+              <label for="interests" data-i18n="formInterests">最期待什么？</label>
+              <textarea
+                id="interests"
+                name="interests"
+                rows="3"
+                maxlength="180"
+                placeholder="例如：传统建筑、海边散步、咖啡店与当地市场"
+                data-i18n-placeholder="formInterestsPlaceholder"
+              ></textarea>
+            </div>
+            <button class="button button--coral form-submit" type="submit">
+              <span data-i18n="formSubmit">整理我的旅行想法</span>
+              <span aria-hidden="true">→</span>
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand--footer" href="#top" aria-label="寻美旅行社首页" data-i18n-aria="brandHome">
+            <span class="brand-mark brand-mark--footer" aria-hidden="true">九尾</span>
+            <span class="brand-copy">
+              <strong data-i18n="brandName">寻美旅行社</strong>
+              <span>GUMIHO TRAVEL · 구미호 여행사</span>
+            </span>
+          </a>
+          <p class="footer-tagline" data-i18n="footerTagline">把韩国旅行，写成属于你的故事。</p>
+        </div>
+        <div class="footer-column">
+          <strong data-i18n="footerNavigate">快速导航</strong>
+          <a href="#services" data-i18n="navServices">旅行服务</a>
+          <a href="#routes" data-i18n="navRoutes">热门路线</a>
+          <a href="#faq" data-i18n="navFaq">常见问题</a>
+          <a href="ATTRIBUTIONS.md" data-i18n="footerCredits">图片来源与许可</a>
+        </div>
+        <div class="footer-column">
+          <strong data-i18n="footerContact">联系信息</strong>
+          <span data-i18n="footerContactPending">电话、邮箱与办公地址待公司确认</span>
+          <span data-i18n="footerHoursPending">服务时间待公司确认</span>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="current-year"></span> GUMIHO TRAVEL</span>
+        <span data-i18n="footerPreview">概念预览 · 暂未公开收录</span>
+      </div>
+    </footer>
+  </body>
+</html>
