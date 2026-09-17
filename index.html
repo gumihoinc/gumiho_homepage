@@ -375,8 +375,8 @@
                 <strong data-i18n="factAreaValue">首尔 · 济州 · 釜山</strong>
               </div>
               <div>
-                <span data-i18n="factContactLabel">企业资料</span>
-                <strong data-i18n="factContactValue">正式上线前补充</strong>
+                <span data-i18n="factHoursLabel">咨询时间</span>
+                <strong data-i18n="factHoursValue">09:00–23:00</strong>
               </div>
             </div>
           </div>
@@ -393,7 +393,7 @@
           <div class="faq-list reveal">
             <details>
               <summary data-i18n="faq1Question">可以用中文沟通吗？</summary>
-              <p data-i18n="faq1Answer">可以。网站与咨询流程计划提供中文和韩文沟通支持，具体方式将在正式上线时公布。</p>
+              <p data-i18n="faq1Answer">可以。网站与咨询流程计划提供中文和韩文沟通支持，也可以通过页面所列社媒主页了解最新信息。</p>
             </details>
             <details>
               <summary data-i18n="faq2Question">可以只做路线规划吗？</summary>
@@ -405,7 +405,7 @@
             </details>
             <details>
               <summary data-i18n="faq4Question">网站上的图片和信息已经是最终版本吗？</summary>
-              <p data-i18n="faq4Answer">目前是概念预览。企业资料、联系方式、服务条款与授权图片会在正式发布前完成核对与替换。</p>
+              <p data-i18n="faq4Answer">目前是概念预览。企业资料、服务条款与授权图片会在正式发布前完成核对与替换。</p>
             </details>
           </div>
         </div>
@@ -417,11 +417,63 @@
             <p class="eyebrow eyebrow--light" data-i18n="contactEyebrow">START YOUR JOURNEY</p>
             <h2 id="contact-title" data-i18n="contactTitle">下一段旅程，从一个想法开始</h2>
             <p data-i18n="contactText">
-              先整理目的地、月份与最想体验的事。这个预览表单不会上传或保存个人信息。
+              先整理目的地、月份与最想体验的事。这个预览表单不会上传或保存个人信息；整理后可通过下方社交媒体与我们联系。
             </p>
             <div class="contact-note">
               <span aria-hidden="true">✦</span>
-              <span data-i18n="contactNote">正式咨询渠道将在公司资料确认后接入。</span>
+              <span data-i18n="contactNote">咨询请通过下方社交媒体联系我们。</span>
+            </div>
+            <div class="contact-details" aria-label="公司信息与社交媒体" data-i18n-aria="contactDetailsLabel">
+              <div class="contact-detail">
+                <span class="contact-detail__label" data-i18n="consultationHoursLabel">咨询时间</span>
+                <strong data-i18n="consultationHoursValue">09:00–23:00</strong>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail__label" data-i18n="companyLocationLabel">公司位置</span>
+                <address data-i18n="companyAddress">
+                  GUMIHO INC. · 韩国首尔特别市城东区往十里路 222 号
+                </address>
+                <a
+                  class="contact-detail__link"
+                  href="https://maps.app.goo.gl/YDmU9HxGWgYftDVD8?g_st=ac"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="在 Google 地图查看 GUMIHO INC.（新窗口打开）"
+                  data-i18n-aria="mapLinkAria"
+                >
+                  <span data-i18n="viewOnGoogleMaps">在 Google 地图中查看</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail__label" data-i18n="socialChannelsLabel">社交媒体</span>
+                <div class="contact-socials">
+                  <a
+                    class="social-link"
+                    href="https://www.instagram.com/gumihotrip/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="在 Instagram 查看 @gumihotrip（新窗口打开）"
+                    data-i18n-aria="instagramProfileAria"
+                  >
+                    <span>Instagram</span>
+                    <strong>@gumihotrip</strong>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <a
+                    class="social-link"
+                    href="https://xhslink.cn/o/5OdGauWCmHy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="在小红书查看 @寻美旅行社（新窗口打开）"
+                    data-i18n-aria="xiaohongshuProfileAria"
+                  >
+                    <span data-i18n="xiaohongshuName">小红书</span>
+                    <strong>@寻美旅行社</strong>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -481,9 +533,37 @@
           <a href="ATTRIBUTIONS.md" data-i18n="footerCredits">图片来源与许可</a>
         </div>
         <div class="footer-column">
-          <strong data-i18n="footerContact">联系信息</strong>
-          <span data-i18n="footerContactPending">电话、邮箱与办公地址待公司确认</span>
-          <span data-i18n="footerHoursPending">服务时间待公司确认</span>
+          <strong data-i18n="footerContact">地址与社媒</strong>
+          <a
+            class="footer-address"
+            href="https://maps.app.goo.gl/YDmU9HxGWgYftDVD8?g_st=ac"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="在 Google 地图查看 GUMIHO INC.（新窗口打开）"
+            data-i18n-aria="mapLinkAria"
+          >
+            <span data-i18n="companyAddress">GUMIHO INC. · 韩国首尔特别市城东区往十里路 222 号</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <span data-i18n="footerHours">咨询时间：09:00–23:00</span>
+          <a
+            href="https://www.instagram.com/gumihotrip/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="在 Instagram 查看 @gumihotrip（新窗口打开）"
+            data-i18n-aria="instagramProfileAria"
+          >
+            Instagram · @gumihotrip <span aria-hidden="true">↗</span>
+          </a>
+          <a
+            href="https://xhslink.cn/o/5OdGauWCmHy"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="在小红书查看 @寻美旅行社（新窗口打开）"
+            data-i18n-aria="xiaohongshuProfileAria"
+          >
+            <span data-i18n="footerXiaohongshu">小红书 · @寻美旅行社</span> <span aria-hidden="true">↗</span>
+          </a>
         </div>
       </div>
       <div class="container footer-bottom">
